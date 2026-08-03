@@ -1,0 +1,26 @@
+{
+  "name": "elham-academy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Elham Academy — online learning platform for Afghanistan (Next.js + MongoDB)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.9.5",
+    "next": "15.5.22",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.7",
+    "postcss": "^8.5.18",
+    "tailwindcss": "^3.4.17"
+  }
+}
